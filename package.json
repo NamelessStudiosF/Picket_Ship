@@ -1,0 +1,23 @@
+{
+  "name": "picket-ship",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Picket Ship - a radar defence game for Android and iOS",
+  "scripts": {
+    "assets": "capacitor-assets generate --iconBackgroundColor \"#07121a\" --iconBackgroundColorDark \"#07121a\" --splashBackgroundColor \"#07121a\" --splashBackgroundColorDark \"#07121a\"",
+    "sync": "cap sync",
+    "android": "cap sync android && cap open android",
+    "ios": "cap sync ios && cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/ios": "^7.0.0",
+    "@capacitor/status-bar": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^7.0.0"
+  }
+}
